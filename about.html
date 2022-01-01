@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Wasim Shaikh</title>
+       <link rel="stylesheet" href="about.css"> 
+       <link rel="icon" href="logo.png" type="image/x-icon">
+       <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   <!-- header section starts  -->
+
+<header>
+    <a href="#" class="logo"><span>Portfolio</span></a>
+
+<nav class="navbar">
+        <a href="index.html">Home</a> </a>
+        <a href="my skills.html">My Skills</a>
+        <a href="pro.html">My Works</a>
+        <a href="about.html">About</a>
+        <a href="https://www.youtube.com/channel/UC-v_ecEmdB1i5OOJ0xgMPZw" target="_blank">Tutorials</a>
+       
+    </nav>
+
+    <div class="icons">
+        <div id="menu-bars" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="index2.html" target="_blank" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+
+ <!-- my carrer -->
+ 
+    <div class="main">
+        <div class="about_section">
+            <div class="about_text">
+                <div class="about_title">My carrer so far</div>
+                <div class="about_description">
+                    Started by web developement journey in 2021, when i was just
+                    introduced to the superb world of programming, from then the
+                    journey has been inevitable. Completed by Bachleors in Information
+                    technology in 2022 , i have gained a lot of expereince in this
+                    journey by doing some really fun projects and getting mentored by
+                    some really gret web dev tutors through their mentorhsip
+                    programmes. In awe to that , even i have been tutoring web
+                    developement to 100+ students as of now and would love to build
+                    projects and share my knowledge ahead.
+                  </div>
+            </div>
+        </div>  
+    </div>
+   
+   
+   
+   
+   
+   
+    <!-- <div class="box-container">
+     <div class="about_section">
+         <div class="box"> -->
+               <!-- <div class="about_text">
+                   <div class="about_title">My carrer so far</div>
+                   <div class="about_description">
+                       Started by web developement journey in 2021, when i was just
+                       introduced to the superb world of programming, from then the
+                       journey has been inevitable. Completed by Bachleors in Information
+                       technology in 2022 , i have gained a lot of expereince in this
+                       journey by doing some really fun projects and getting mentored by
+                       some really gret web dev tutors through their mentorhsip
+                       programmes. In awe to that , even i have been tutoring web
+                       developement to 100+ students as of now and would love to build
+                       projects and share my knowledge ahead.
+                     </div>
+               </div>
+           </div>
+    </div>
+ </div> --> -->
+ 
+
+
+    <div class="social-links">
+        <a href="https://github.com/Beaineboy" target="_blank">
+            <img src="images/github icon.png"></a>
+     <a href="https://www.instagram.com/beanie_boy_live/" target="blank">
+        <img src="images/insta icon.png"></a>
+        <a href="https://www.youtube.com/channel/UC-v_ecEmdB1i5OOJ0xgMPZw" target="blank">
+        <img src="images/youtube.png">
+        </a>
+    </div>
+
+   <!-- javascript part  -->
+<script>
+
+    let menu = document.querySelector('#menu-bars');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.onclick = () =>{
+        navbar.classList.toggle('active');
+        menu.classList.toggle('fa-times');
+    }
+    
+    window.onscroll = () =>{
+        navbar.classList.remove('active');
+        menu.classList.remove('fa-times');
+    }
+    
+    </script>
+        
+</body>
+</html>
